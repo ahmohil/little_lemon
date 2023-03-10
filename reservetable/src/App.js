@@ -3,7 +3,11 @@ import './App.css';
 function App() {
   return (
     <>
-      homepage
+    <Header/>
+    <Main/>
+    <Footer/>
+
+    
     </>
   );
 }
