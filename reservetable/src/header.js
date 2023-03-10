@@ -1,9 +1,8 @@
-function Header(){  
+function Header(){
     return(
-        <>
-            <img/>
-            
-        </>
+        <header>
+            <img src = "../icons_assets/Logo.svg"></img>
+        </header>
     )
 }
 
