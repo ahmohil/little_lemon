@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+#root{
+  padding: 10px 15%;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +39,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar_container{
+  list-style-type: none;
+ 
+}
+
+.horizontalNavigation{
+  float: right;
+}
+
+.horizontalNavigation > ul > li{
+  float: left;
+}
+
+li > a{
+  display: block;
+  padding: 10px; 
+  text-decoration: none;
+}
+
+
+.footer{
+  display:flex;
+  position: fixed;
+  bottom: 10px;
+}
+
+.verticalNavigation{
+  float: right;
+  padding: 20px;
+}
+
+.verticalNavigation a{
+
+  padding: 0px; 
 }
