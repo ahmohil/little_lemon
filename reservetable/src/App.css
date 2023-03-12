@@ -43,7 +43,6 @@
 
 .navbar_container{
   list-style-type: none;
- 
 }
 
 .horizontalNavigation{
@@ -54,9 +53,9 @@
   float: left;
 }
 
-li > a{
+.navbar_container li > a{
   display: block;
-  padding: 10px; 
+  padding: 10px;
   text-decoration: none;
 }
 
@@ -65,14 +64,43 @@ li > a{
   display:flex;
   position: fixed;
   bottom: 10px;
+  height: auto;
 }
 
 .verticalNavigation{
   float: right;
-  padding: 20px;
+  padding: 10px 30px;
 }
 
-.verticalNavigation a{
-
+.verticalNavigation li > a{
   padding: 0px; 
+}
+
+.footer .logo_img{
+  bottom: 10px;
+  left:10px;
+}
+
+.footerContact{
+  padding: 10px 30px;
+}
+
+.socialMedia ul a{
+  text-decoration: none;
+  
+}
+
+.socialMedia ul{
+  text-align: left;
+  list-style-type: none;
+
+}
+
+.socialMedia{
+  padding: 10px 30px;
+}
+
+
+ul{
+  padding:0px;
 }
